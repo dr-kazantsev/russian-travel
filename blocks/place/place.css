@@ -1,0 +1,39 @@
+.place {
+    max-width: 984px;
+    margin: 73px auto;
+    padding: 0;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
+    gap: 48px 40px;
+}
+
+.place:first-of-type {
+    margin-top: 0;
+}
+
+.place:last-of-type {
+    margin-bottom: 0;
+}
+
+/* Стили для разрешения 768px - 1024px */
+@media screen and (max-width: 1024px) {
+    .place {
+        gap: 48px 32px;
+    }
+
+    /* стили для планшета */
+    @media screen and (max-width: 768px) {
+        .place {
+            gap: 48px 28px;
+        }
+    }
+
+    /* стили для малого смартфона */
+    @media screen and (max-width: 550px) {
+        .place {
+            margin: 50px auto;
+            grid-template-columns: minmax(200px, 1fr);
+            gap: 32px;
+        }
+    }

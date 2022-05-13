@@ -1,0 +1,26 @@
+.intro__text {
+    margin: 40px 0 33px 0;
+    padding: 0;
+    max-width: 690px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Стили для разрешения 768px - 1024px */
+@media screen and (max-width: 1024px) {
+    .intro__text {
+        max-width: 720px;
+    }
+}
+
+/* стили для планшета */
+@media screen and (max-width: 768px) {}
+
+/* стили для малого смартфона */
+@media screen and (max-width: 320px) {
+    .intro__text {
+        margin: 40px 0 34px 0;
+    }

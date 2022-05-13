@@ -1,0 +1,20 @@
+.header__logo {
+    width: 176px;
+    height: 52px;
+}
+
+/* стили для малого смартфона */
+@media screen and (max-width: 320px) {
+    .header__logo {
+        width: 142px;
+        height: 42px;
+    }
+}
+
+/* стили для среднего смартфона */
+@media screen and (max-width: 375px) {
+    .header__logo {
+        width: 142px;
+        height: 42px;
+    }
+}

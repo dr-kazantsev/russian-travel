@@ -1,0 +1,25 @@
+.cover__title {
+    margin: 0;
+    padding: 0;
+    max-width: 560px;
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 1.1;
+    text-align: center;
+}
+
+/* стили для малого планшета */
+@media screen and (max-width: 550px) {
+    .cover__title {
+        font-size: 44px;
+    }
+}
+
+/* стили для малого смартфона */
+@media screen and (max-width: 320px) {
+    .cover__title {
+        font-size: 32px;
+    }
+}

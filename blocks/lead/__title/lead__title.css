@@ -1,0 +1,24 @@
+.lead__title {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 1;
+}
+
+/* стили для планшета */
+@media screen and (max-width: 710px) {
+    .lead__title {
+        font-size: 46px;
+    }
+}
+
+/* стили для малого смартфона */
+@media screen and (max-width: 320px) {
+    .lead__title {
+        font-size: 44px;
+    }

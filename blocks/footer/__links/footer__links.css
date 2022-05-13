@@ -1,0 +1,18 @@
+.footer__links {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    align-items: center;
+}
+
+/* стили для малого gkfyitnf */
+@media screen and (max-width: 710px) {
+    .footer__links {
+        flex-direction: column;
+        align-items: baseline;
+        gap: 32px;
+        margin: 0 0 48px 0;
+    }
+}

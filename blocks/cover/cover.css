@@ -1,0 +1,26 @@
+.cover {
+    margin: 0 48px 92px 48px;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Стили для разрешения 768px - 1024px */
+@media screen and (max-width: 1024px) {
+    .cover {
+        margin: 0 0 92px 0;
+    }
+}
+
+/* стили для планшета */
+@media screen and (max-width: 768px) {
+    .cover {
+        margin: 0 0 88px 0;
+    }
+}
+
+/* стили для малого смартфона */
+@media screen and (max-width: 320px) {
+    .cover {
+        margin: 0 0 64px 0;
+    }
+}

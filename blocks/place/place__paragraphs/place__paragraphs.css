@@ -1,0 +1,12 @@
+.place__paragraphs {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* стили для малого смартфона */
+@media screen and (max-width: 550px) {
+    .place__paragraphs {
+        margin: 0 16px 0 16px;
+    }

@@ -1,0 +1,13 @@
+.intro__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    max-width: 690px;
+}
+
+/* Стили для разрешения 1024px */
+@media screen and (max-width: 1024px) {
+    .intro__list {
+        max-width: 720px;
+    }
+}
