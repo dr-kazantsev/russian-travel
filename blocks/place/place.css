@@ -21,7 +21,7 @@
     .place {
         gap: 48px 32px;
     }
-
+}
     /* стили для планшета */
     @media screen and (max-width: 768px) {
         .place {
