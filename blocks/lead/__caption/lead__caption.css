@@ -1,8 +1,8 @@
 .lead__caption {
-    margin: 0;
+    margin: 8px 0 0 0;
     padding: 0;
     color: #fff;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 10px;
@@ -10,4 +10,19 @@
     letter-spacing: 0.15em;
     text-transform: uppercase;
     align-self: flex-start;
+}
+
+/* стили для планшета */
+@media screen and (max-width: 928px) {
+    .lead__caption {
+        margin-left: 24px;
+    }
+
+}
+
+/* стили для малого смартфона */
+@media screen and (max-width: 320px) {
+    .lead__caption {
+        margin-left: 16px;
+    }
 }

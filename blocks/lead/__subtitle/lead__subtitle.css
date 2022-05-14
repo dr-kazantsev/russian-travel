@@ -1,14 +1,20 @@
 .lead__subtitle {
     max-width: 550px;
-    margin: 16px 0 40px 0;
+    margin: 32px 0 64px 0;
     padding: 0;
     text-align: center;
     color: #fff;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
     line-height: 1;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__subtitle {
+        margin: 32px 0 56px 0;
+    }
 }
 
 /* стили для малого планшета */
@@ -21,6 +27,7 @@
 /* стили для малого смартфона */
 @media screen and (max-width: 320px) {
     .lead__subtitle {
+        margin: 16px 0 40px 0;
         font-size: 16px;
     }
 }

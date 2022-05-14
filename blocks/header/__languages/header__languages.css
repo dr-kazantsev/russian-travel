@@ -2,19 +2,6 @@
     margin: 0;
     padding: 0;
     display: flex;
-}
-
-@media screen and (max-width: 320px) {
-    .header__languages {
-        font-size: 18px;
-        line-height: 0.8;
-    }
-}
-
-/* стили для среднего смартфона */
-@media screen and (max-width: 375px) {
-    .header__languages {
-        font-size: 18px;
-        line-height: 0.8;
-    }
+    list-style-type: none;
+    gap: 18px;
 }

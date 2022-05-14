@@ -1,22 +1,20 @@
 .footer {
-    margin: 0 48px;
+    margin: 0 48px 24px 48px;
     padding: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    overflow: hidden;
 }
 
 /* стили для планшета */
 @media screen and (max-width: 850px) {
     .footer {
-        margin: 0 24px;
+        margin: 0 24px 24px 24px;
     }
 }
 
 @media screen and (max-width: 710px) {
     .footer {
-        margin: 0 24px;
         flex-direction: column;
     }
 }
@@ -24,6 +22,6 @@
 /* стили для малого смартфона */
 @media screen and (max-width: 320px) {
     .footer {
-        margin: 0 16px;
+        margin: 0 16px 24px 16px;
     }
 }
