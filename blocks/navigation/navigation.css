@@ -1,4 +1,28 @@
 .navigation {
-    margin: 0;
+    margin: 0 48px 24px 48px;
     padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
+
+/* стили для планшета */
+@media screen and (max-width: 850px) {
+    .navigation {
+        margin: 0 24px 24px 24px;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    .navigation {
+        flex-direction: column;
+    }
+}
+
+/* стили для малого смартфона */
+@media screen and (max-width: 320px) {
+    .navigation {
+        margin: 0 16px 24px 16px;
+    }
+}
+

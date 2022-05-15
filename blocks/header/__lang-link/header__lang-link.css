@@ -9,6 +9,7 @@
     line-height: 1.2;
     text-decoration: none;
     opacity: 1;
+    text-align: center;
     transition: opacity 0.2s linear;
 }
 .header__lang-link:hover {
